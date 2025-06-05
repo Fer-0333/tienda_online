@@ -26,7 +26,7 @@ main {
  max-width:70%;
 }
 
-.producto {
+.productos {
 background-color: #fff;
 border: 1px solid #ddd;
 margin: 10px;
@@ -36,7 +36,7 @@ width:200px;
 box-shadow:0 2pax 4pax rgba (0,0,0,0.1);
 }
 
-.producto img {
+.productos img {
 max-width: 100%;
 height:auto;
 margin-bottom:10px;
