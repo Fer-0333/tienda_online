@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Tienda Online</h1>
+    </header>
+
+    <main>
+        <section id="productos">
+            <div class="producto">
+                <img src="computador1.jpg" alt="Computador 1">
+                <h3>Computador Asus</h3>
+                <p>Intel Core i5</p>
+                <p><b>Almacenamiento:</b> 512 GB SSD</p>
+                <p><b>Sistema operativo:</b> Windows 10</p>
+                <p><b>Precio:</b><br>$2.300.000</p>
+                <button class="btn-agregar" data-id="1">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="computador2.jpg" alt="Computador 2">
+                <h3>Computador HP</h3>
+                <p>Color palo de rosa</p>
+                <p><b>Almacenamiento:</b> 512 GB SSD</p>
+                <p><b>Sistema operativo:</b> Windows 11</p>
+                <p><b>Precio:</b><br>$1.800.000</p>
+                <button class="btn-agregar" data-id="2">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="auriculares1.png" alt="Auriculares 1">
+                <h3>Auriculares Gamer</h3>
+                <p>Color negro, muestra la carga</p>
+                <p><b>Compatible con:</b> Alexa y Siri.</p>
+                <p><b>Precio:</b><br>$85.000</p>
+                <button class="btn-agregar" data-id="3">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="mouse1.jpg" alt="Mouse 1">
+                <h3>Mouse Gamer</h3>
+                <p>Este ratón está diseñado con USB</p>
+                <p><b>Precio:</b><br>$65.000</p>
+                <button class="btn-agregar" data-id="4">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="mouse2.jpg" alt="Mouse 2">
+                <h3>Mouse Genius</h3>
+                <p>Color negro, inalámbrico</p>
+                <p><b>Ofrece una conexión:</b> estable.</p>
+                <p><b>Precio:</b><br>$45.000</p>
+                <button class="btn-agregar" data-id="5">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="parlantes1.jpg" alt="Parlantes 1">
+                <h3>Parlante Steren</h3>
+                <p>Color negro y azul</p>
+                <p><b>Función:</b> Micrófono y reproductor Bluetooth</p>
+                <p><b>Precio:</b><br>$38.000</p>
+                <button class="btn-agregar" data-id="6">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="teclado1.jpg" alt="Teclado 1">
+                <h3>Teclado y Mouse</h3>
+                <p>Teclas blancas y negras, con mouse USB</p>
+                <p><b>Precio:</b><br>$25.000</p>
+                <button class="btn-agregar" data-id="7">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="teclado2.jpg" alt="Teclado 2">
+                <h3>Teclado Logitech</h3>
+                <p>Color negro, inalámbrico</p>
+                <p><b>Ofrece una experiencia:</b> de escritura cómoda</p>
+                <p><b>Precio:</b><br>$50.000</p>
+                <button class="btn-agregar" data-id="8">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="usb1.jpg" alt="USB 1">
+                <h3>USB 16GB</h3>
+                <p>Color plateado</p>
+                <p><b>Capacidad:</b> 16 GB</p>
+                <p><b>Precio:</b><br>$30.000</p>
+                <button class="btn-agregar" data-id="9">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="usb2.jpg" alt="USB 2">
+                <h3>USB 8GB</h3>
+                <p>Color plateado</p>
+                <p><b>Capacidad:</b> 8 GB</p>
+                <p><b>Precio:</b><br>$30.000</p>
+                <button class="btn-agregar" data-id="10">Agregar al carrito</button>
+            </div>
+        </section>
+
+        <aside id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito">
+                <!-- Items del carrito irán aquí -->
+            </ul>
+            <p id="total-carrito">Total: $0</p>
+            <button id="btn-comprar">Comprar</button>
+            <button id="btn-nueva-compra">Nueva Compra</button>
+        </aside>
+
+        <section id="factura" style="display: none;">
+            <h2>Factura</h2>
+            <div id="items-factura">
+                <!-- Items de la factura irán aquí -->
+            </div>
+            <p id="total-factura">Total Factura: $0</p>
+            <button id="btn-volver-comprar">Volver a Comprar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
